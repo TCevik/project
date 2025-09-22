@@ -1,12 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+
+    /* Header / Navigatie */
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      background-color: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30px;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+    }
+
+    nav ul li {
+      cursor: pointer;
+    }
+
+    /* Hoofdcontainer */
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .image-box {
+      width: 100%;
+      height: 350px;
+      border: 2px solid #aaa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .text-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .text-block {
+      background: #fff;
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    .text-block h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .text-line {
+      height: 10px;
+      background: #333;
+      margin: 5px 0;
+      border-radius: 2px;
+    }
+
+    /* Footer */
+    footer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      border-top: 1px solid #ccc;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .footer-box {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #000;
+      background: #eee;
+    }
+
+    .footer-bar {
+      flex-grow: 1;
+      height: 15px;
+      background: #333;
+      margin-left: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Titel</h1>
-    <p>Tekst</p>
+  <header>
+    <div class="logo">Logo</div>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>De opleiding</li>
+        <li>Het beroepenveld</li>
+        <li>Onderzoek doorgroeimogelijkheden</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="image-box">twee assenkruisen X / A.L.A</div>
+    <div class="text-section">
+      <div class="text-block">
+        <h3>Voorstel tekst</h3>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+      </div>
+      <div class="text-block">
+        <h3>Voorstel tekst</h3>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+        <div class="text-line"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-box"></div>
+    <div class="footer-box"></div>
+    <div class="footer-box"></div>
+    <div class="footer-bar"></div>
+  </footer>
 </body>
 </html>

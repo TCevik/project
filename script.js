@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <nav>
             <ul>
-                <li><a href="/project/index.html">Home</a></li>
+                <li><a href="/project/">Home</a></li>
                 <li><a href="/project/opleiding.html">De opleiding</a></li>
                 <li><a href="/project/beroepenveld.html">Het beroepenveld</a></li>
                 <li><a style="margin-right: 45px;" href="/project/onderzoekdoorgroeimogelijkheden.html">

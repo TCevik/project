@@ -133,6 +133,7 @@ h1 {
     font-size: var(--h1-font-size);
     margin-bottom: 10px;
     overflow-wrap: break-word;
+    border-radius: var(--h1-font-size);
    
 }
 

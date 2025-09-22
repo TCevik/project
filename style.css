@@ -167,6 +167,9 @@ h5 {
     margin-bottom: 5px;
     overflow-wrap: break-word;
     padding: 15px;
+    border-radius: var(--border-radius1);
+    outline: none; 
+    border: solid 3px;
 }
 
 

@@ -56,6 +56,14 @@ header img {
     width: 100%;
 }
 
+#social-media a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#social-media a:hover img {
+    transform: scale(1.2) translateZ(20px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
 nav ul {
     display: flex;

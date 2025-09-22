@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ===== FOOTER =====
     const footer = document.createElement("footer");
     footer.innerHTML = `
+            <div style="max-width: 60%;" id="social-media">
         <div class="footer-links">
             <a target="_blank" style="border-bottom: none;"
                 href="https://www.youtube.com/@Tamer-Cevik?sub_confirmation=1">
@@ -37,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
             <a target="_blank" style="border-bottom: none;" href="https://x.com/YT_TC_tam">
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px" src="https://tctam.nl/assets/social-media/x.avif"
                     alt="X Link">
+            </a>
+        </div>
         </div>
         <div style="margin-right: 45px;" class="footer-bar">Gemaakt door Tamer Çevik en Max Drzewinski</div>
     `;

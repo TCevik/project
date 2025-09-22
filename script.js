@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Maak een nieuw header element
+    // ===== HEADER =====
     const header = document.createElement("header");
-
-    // Voeg de inhoud van de header toe
     header.innerHTML = `
         <div class="logo">
             <img src="https://mborijnland.nl/wp-content/uploads/mboRijnland_logo_kleur_blokje.png"
@@ -19,7 +17,18 @@ document.addEventListener("DOMContentLoaded", function() {
             </ul>
         </nav>
     `;
-
-    // Zet het header element bovenaan de body
     document.body.insertBefore(header, document.body.firstChild);
+
+    // ===== FOOTER =====
+    const footer = document.createElement("footer");
+    footer.innerHTML = `
+        <div class="footer-links">
+            <img src="https://tctam.nl/assets/social-media/youtube.svg" style="max-width: 40px;" alt="YouTube">
+            <img src="https://tctam.nl/assets/social-media/tiktok.webp" style="max-width: 40px;" alt="TikTok">
+            <img src="https://tctam.nl/assets/social-media/instagram.png" style="max-width: 40px;" alt="Instagram">
+            <img src="https://tctam.nl/assets/social-media/x.avif" style="max-width: 40px;" alt="X">
+        </div>
+        <div style="margin-right: 45px;" class="footer-bar">Gemaakt door Tamer Çevik en Max Drzewinski</div>
+    `;
+    document.body.appendChild(footer);
 });

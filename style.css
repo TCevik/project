@@ -159,7 +159,7 @@ h4 {
 
 h5 {
     color: var(--h1234-color);
-    font-size: var(--h4-font-size);
+    font-size: var(--h5-font-size);
     margin-bottom: 5px;
     overflow-wrap: break-word;
 }

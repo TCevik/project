@@ -18,6 +18,8 @@ body {
     --border-radius2: 25px;
     --border-radius3: 50px;
     --border-radius4: 50vw;
+
+    padding: 30px;
     overflow-x: hidden;
     font-family: Lexend, Arial, sans-serif;
 
@@ -68,6 +70,34 @@ nav ul li a {
     border-bottom: none;
     color: black;
     font-weight: bold;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-top: 1px solid #ccc;
+    background-color: var(--bg-accent-color1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.article-header {
+    margin-top: -10px;
+}
+
+.article-text {
+    margin-bottom: -10px;
 }
 
 .diff-color-section1 {

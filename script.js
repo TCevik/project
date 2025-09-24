@@ -3,14 +3,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.createElement("header");
     header.innerHTML = `
         <div class="logo">
-        <a href="index">
+        <a href="home">
             <img src="https://mborijnland.nl/wp-content/uploads/mboRijnland_logo_kleur_blokje.png"
                 style="margin: -10px; height: 50px;" alt="Logo">
         </a>
         </div>
         <nav>
             <ul>
-                <li><a href="index">Home</a></li>
+                <li><a href="home">Home</a></li>
                 <li><a href="opleiding">De opleiding</a></li>
                 <li><a href="beroepenveld">Het beroepenveld</a></li>
                 <li><a style="margin-right: 45px;" href="onderzoekdoorgroeimogelijkheden">

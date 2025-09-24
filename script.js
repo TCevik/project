@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // ===== FOOTER =====
     const footer = document.createElement("footer");
     footer.innerHTML = `
-            <div style="max-width: 60%;" id="social-media">
+        <div style="max-width: 60%;" id="social-media">
         <div class="footer-links">
             <a target="_blank" style="border-bottom: none;"
                 href="https://www.youtube.com/@Tamer-Cevik?sub_confirmation=1">

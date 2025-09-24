@@ -15,7 +15,7 @@
             gap: 20px;
             background: white;
             padding: 20px;
-            margin-bottom: 30px;
+            margin: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;
         }
@@ -26,15 +26,15 @@
             gap: 20px;
             background: white;
             padding: 20px;
-            margin-bottom: 30px;
+            margin: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;
         }
 
-        .section1 img, .section2 img {
+        .section1 img,
+        .section2 img {
             width: 100%;
             height: auto;
-            background: #ddd;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -44,6 +44,19 @@
             flex-direction: column;
             justify-content: center;
         }
+
+        @media (max-width: 768px) {
+
+            .section1,
+            .section2 {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .text {
+                margin-top: 15px;
+            }
+        }
     </style>
 </head>
 
@@ -51,14 +64,14 @@
     <h2>Het beroepenveld</h2>
 
     <div class="section1">
-        <img src="https://cdn.mos.cms.futurecdn.net/9meMCxtJU3NWkh5YcPs7qG.jpg  " alt="software development">
+        <img src="https://cdn.mos.cms.futurecdn.net/9meMCxtJU3NWkh5YcPs7qG.jpg" alt="software development">
         <div class="text">
             <h4>Wat doet een software developer?</h4>
             <p>
-                Een software developer codeert in talen zoals HTML, CSS, JavaScript, PHP en Python. 
-                Ze ontwikkelen video games, apps en websites. Er zijn veel soorten software developers 
-                met verschillende specialisaties. 
-                Front-end developers richten zich op de vormgeving, Back-end developers werken aan databases 
+                Een software developer codeert in talen zoals HTML, CSS, JavaScript, PHP en Python.
+                Ze ontwikkelen video games, apps en websites. Er zijn veel soorten software developers
+                met verschillende specialisaties.
+                Front-end developers richten zich op de vormgeving, Back-end developers werken aan databases
                 en servers, en Full-stack developers doen beide.
             </p>
         </div>
@@ -68,9 +81,9 @@
         <div class="text">
             <h4>Salaris</h4>
             <p>
-                Als je goed bent in programmeren en veel klanten aantrekt, kun je veel verdienen. 
-                Een specialist kan tussen de 5000 en 7000+ euro per maand verdienen (bruto). 
-                Minder ervaren developers verdienen gemiddeld tussen de 3500 en 5500 euro, 
+                Als je goed bent in programmeren en veel klanten aantrekt, kun je veel verdienen.
+                Een specialist kan tussen de 5000 en 7000+ euro per maand verdienen (bruto).
+                Minder ervaren developers verdienen gemiddeld tussen de 3500 en 5500 euro,
                 en starters rond de 2800 tot 3500 euro.
             </p>
         </div>
@@ -82,10 +95,10 @@
         <div class="text">
             <h4>Verschil</h4>
             <p>
-                Er zijn front-end developers, back-end developers, fullstack developers, mobile app developers, 
-                game developers en embedded/IoT developers. 
-                Front-end developers maken het uiterlijk van de website, 
-                Back-end developers doen de logica en databases, 
+                Er zijn front-end developers, back-end developers, fullstack developers, mobile app developers,
+                game developers en embedded/IoT developers.
+                Front-end developers maken het uiterlijk van de website,
+                Back-end developers doen de logica en databases,
                 en Full-stack developers combineren beide rollen.
             </p>
         </div>

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const header = document.createElement("header");
     header.innerHTML = `
         <div class="logo">
-        <a href="/">
+        <a href="">
             <img src="https://mborijnland.nl/wp-content/uploads/mboRijnland_logo_kleur_blokje.png"
                 style="margin: -10px; height: 50px;" alt="Logo">
         </a>

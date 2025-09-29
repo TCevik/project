@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
         <nav>
             <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="opleiding">De opleiding</a></li>
-                <li><a href="beroepenveld">Het beroepenveld</a></li>
-                <li><a style="margin-right: 45px;" href="onderzoekdoorgroeimogelijkheden">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="opleiding.html">De opleiding</a></li>
+                <li><a href="beroepenveld.html">Het beroepenveld</a></li>
+                <li><a style="margin-right: 45px;" href="onderzoekdoorgroeimogelijkheden.html">
                     Onderzoek doorgroeimogelijkheden
                 </a></li>
             </ul>

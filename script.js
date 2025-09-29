@@ -47,3 +47,18 @@ document.addEventListener("DOMContentLoaded", function () {
     `;
     document.body.appendChild(footer);
 });
+
+function changeFavicon(src) {
+    // Remove old favicons
+    const links = document.querySelectorAll("link[rel~='icon']");
+    links.forEach(link => link.parentNode.removeChild(link));
+
+    // Create new favicon
+    const link = document.createElement("link");
+    link.rel = "icon";
+    link.href = src;
+    document.head.appendChild(link);
+}
+
+// Run directly on load
+changeFavicon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTf55YkTnz7djxtA15JCN8FukhFXCoMR9qBQ&s");

@@ -29,16 +29,16 @@ document.addEventListener("DOMContentLoaded", function () {
             <a target="_blank" style="border-bottom: none;"
                 href="https://www.youtube.com/@Tamer-Cevik?sub_confirmation=1">
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px"
-                    src="https://tctam-site-oud.github.io/images/social-media/youtube.svg" alt="YouTube Link">
+                    src="https://tctam-site-oud.github.io/assets/social-media/youtube.svg" alt="YouTube Link">
             <a target="_blank" style="border-bottom: none;" href="https://www.tiktok.com/@tc_tam">
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px"
-                    src="https://tctam-site-oud.github.io/images/social-media/tiktok.webp" alt="TikTok Link">
+                    src="https://tctam-site-oud.github.io/assets/social-media/tiktok.webp" alt="TikTok Link">
             </a>
             <a target="_blank" style="border-bottom: none;" href="https://www.instagram.com/tamer.cevik123/">
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px"
-                    src="https://tctam-site-oud.github.io/images/social-media/instagram.png" alt="Instagram Link">
+                    src="https://tctam-site-oud.github.io/assets/social-media/instagram.png" alt="Instagram Link">
             <a target="_blank" style="border-bottom: none;" href="https://x.com/YT_TC_tam">
-                <img loading="lazy" style="margin: 5px;" width="40px" height="40px" src="https://tctam-site-oud.github.io/images/social-media/x.avif"
+                <img loading="lazy" style="margin: 5px;" width="40px" height="40px" src="https://tctam-site-oud.github.io/assets/social-media/x.avif"
                     alt="X Link">
             </a>
         </div>

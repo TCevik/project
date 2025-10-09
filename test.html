@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid with Position</title>
+    <style>
+        body {
+            position: relative;
+        }
+
+        .block {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Row 1 -->
+    <div class="block" style="background-color: blue; top: 99px; left: calc(50% - 50px);"></div>
+
+    <!-- Row 2 -->
+    <div class="block" style="background-color: cadetblue; top: 200px; left: calc(50% - 101px);"></div>
+    <div class="block" style="background-color: cadetblue; top: 200px; left: calc(50%);"></div>
+
+    <!-- Row 3 -->
+    <div class="block" style="background-color: greenyellow; top: 301px; left: calc(50% - 151px);"></div>
+    <div class="block" style="background-color: greenyellow; top: 301px; left: calc(50% - 50px);"></div>
+    <div class="block" style="background-color: greenyellow; top: 301px; left: calc(50% + 51px);"></div>
+</body>
+
+</html>

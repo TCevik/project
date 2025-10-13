@@ -9,26 +9,46 @@
     <script src="script.js"></script>
 
     <style>
-        .detail-img {
-            max-width: 300px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
-        .grid-div {
+        .grid-article {
             border: 1px solid grey;
             border-radius: 15px;
             padding: 10px;
         }
 
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 0 auto;
+        .detail-img {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 0 auto 10px auto;
         }
 
-        .grid-div img {
-            width: 70%;
-            margin: 0 auto;
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .grid {
+                gap: 15px;
+            }
+
+            .grid-article {
+                padding: 10px;
+            }
+
+            .detail-img {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -36,8 +56,8 @@
 <body>
     <h2>Over de opleiding</h2>
     <article>
-        <div class="grid">
-            <div class="grid-div">
+        <article class="grid">
+            <article class="grid-article">
                 <img class="detail-img" src="images/snelheidopleiding.png">
                 <h4>Duur van de opleiding</h4>
                 <p>
@@ -46,18 +66,18 @@
                     moet u dan binnen 3 jaar afmaken. Dat betekent mogelijk: minder uitstel, sneller werken en misschien
                     vaker meer inzet tonen.
                 </p>
-            </div>
+            </article>
 
-            <div class="grid-div">
+            <article class="grid-article">
                 <img class="detail-img" src="images/modules.png">
                 <h4>Modules</h4>
                 <p>
                     Tijdens de opleiding krijgt u les in de volgende modules: coderen, generieke vakken
                     (zoals Nederlands, Engels en wiskunde), front-end ontwikkeling en samenwerken in een team.
                 </p>
-            </div>
+            </article>
 
-            <div class="grid-div">
+            <article class="grid-article">
                 <img class="detail-img" src="images/keuzedelen.png">
                 <h4>Keuzedelen</h4>
                 <p>
@@ -72,9 +92,9 @@
                         en welke vaardigheden daarbij handig zijn.</li>
                     <li><strong>Voorbereiden op het HBO:</strong> gericht op de overgang naar het hoger onderwijs.</li>
                 </ul>
-            </div>
+            </article>
 
-            <div class="grid-div">
+            <article class="grid-article">
                 <img class="detail-img" src="images/stagelopen.png">
                 <h4>Stages</h4>
                 <p>
@@ -85,8 +105,8 @@
                     leren.
                     U werkt dan ook mee in een ontwikkelteam.
                 </p>
-            </div>
-        </div>
+            </article>
+        </article>
     </article>
 </body>
 

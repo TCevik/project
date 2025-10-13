@@ -2,15 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // ===== HEADER =====
     const header = document.createElement("header");
     header.innerHTML = `
-        <div class="logo">
+        <article class="logo">
         <a href="home">
             <img src="https://mborijnland.nl/wp-content/uploads/mboRijnland_logo_kleur_blokje.png"
                 style="margin: -10px; height: 50px;" alt="Logo">
         </a>
-        </div>
+        </article>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="opleiding.html">De opleiding</a></li>
                 <li><a href="beroepenveld.html">Het beroepenveld</a></li>
                 <li><a style="margin-right: 45px;" href="onderzoekdoorgroeimogelijkheden.html">
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // ===== FOOTER =====
     const footer = document.createElement("footer");
     footer.innerHTML = `
-        <div style="max-width: 60%;" id="social-media">
-        <div class="footer-links">
+        <article style="max-width: 60%;" id="social-media">
+        <article class="footer-links">
             <a target="_blank" style="border-bottom: none;"
                 href="https://www.youtube.com/@Tamer-Cevik?sub_confirmation=1">
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px"
@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 <img loading="lazy" style="margin: 5px;" width="40px" height="40px" src="https://tctam-site-oud.github.io/assets/social-media/x.avif"
                     alt="X Link">
             </a>
-        </div>
-        </div>
-        <div style="margin-right: 45px;" class="footer-bar">Gemaakt door Tamer Çevik en Max Drzewinski</div>
+        </article>
+        </article>
+        <article style="margin-right: 45px;" class="footer-bar">Gemaakt door Tamer Çevik en Max Drzewinski</article>
     `;
     document.body.appendChild(footer);
 });

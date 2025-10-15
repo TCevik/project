@@ -440,3 +440,14 @@ main {
         margin-left: -20px;
     }
 }
+
+/* onderzoeksdoorgroeimogelijkheden */
+
+.article-onderzoekdoorgroeimogelijkheden { 
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+
+}
+
